@@ -32,7 +32,7 @@ function createBoxes(sell) {
   }
 
   boxes.innerHTML = array.map(({ outerHTML }) => outerHTML).join("");
-  control.querySelector("input").value = "";
+  controls.querySelector("input").value = "";
 }
 function destroyBoxes() {
   boxes.innerHTML = "";
